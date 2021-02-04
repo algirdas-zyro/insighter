@@ -4,7 +4,10 @@
 </template>
 
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+import { docRef, useStore } from "./store";
+const { setDoc } = useStore();
+setDoc({ hu: "HO" });
 </script>
 
 <style>

@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /Users/algirdastamasauskas/.npm-global/bin/yarn add firebase @vueuse
+  /usr/local/bin/node /Users/algirdastamasauskas/.npm-global/bin/yarn add irebase-functions@latest firebase-admin@latest -D
 
 PATH: 
   /Users/algirdastamasauskas/.npm-global/bin:/usr/local/opt/mongodb-community@4.0/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/mongodb/bin:/usr/local/Cellar/maven/3.6.3_1/libexec/bin
@@ -14,8 +14,8 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.npmjs.org/@vueuse: Request "https://registry.npmjs.org/@vueuse" returned a 405
-      at Request.params.callback [as _callback] (/Users/algirdastamasauskas/.npm-global/lib/node_modules/yarn/lib/cli.js:66997:18)
+  Error: https://registry.npmjs.org/irebase-functions: Not found
+      at Request.params.callback [as _callback] (/Users/algirdastamasauskas/.npm-global/lib/node_modules/yarn/lib/cli.js:66988:18)
       at Request.self.callback (/Users/algirdastamasauskas/.npm-global/lib/node_modules/yarn/lib/cli.js:140662:22)
       at Request.emit (events.js:223:5)
       at Request.<anonymous> (/Users/algirdastamasauskas/.npm-global/lib/node_modules/yarn/lib/cli.js:141634:10)
